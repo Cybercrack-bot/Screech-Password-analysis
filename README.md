@@ -7,7 +7,7 @@ INSTALLATION
 
 on linux:-
 
-git clone https://github.com/Cybercrack-bot/Screech-Password-analysis.git
+Clone the repository
 cd Screech-Password-analysis
 pip install -r requirements.txt
 sudo python3 Screech.py
