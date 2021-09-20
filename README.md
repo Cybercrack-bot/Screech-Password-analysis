@@ -8,8 +8,11 @@ INSTALLATION
 on linux:-
 
 Clone the repository
+
 cd Screech-Password-analysis
+
 pip install -r requirements.txt
+
 sudo python3 Screech.py
 
 USAGE
