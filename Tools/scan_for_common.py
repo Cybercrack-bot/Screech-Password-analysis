@@ -2,7 +2,7 @@ from colorama import Fore
 def simple_scan(password):
     blue = Fore.BLUE
     red = Fore.RED
-    with open("/home/cybercrack/Screech - password analyze/wordlists/small_scan_wordlist.txt", "r") as wordlist:
+    with open("wordlists/small_scan_wordlist.txt", "r") as wordlist:
         wordlist = wordlist.readlines()
         matches = 0
         for phrase in wordlist:
@@ -18,7 +18,7 @@ def simple_scan(password):
 def medium_scan(password):
     blue = Fore.BLUE
     red = Fore.RED
-    with open("/home/cybercrack/Screech - password analyze/wordlists/medium_scan_wordlist.txt", "r") as wordlist:
+    with open("wordlists/medium_scan_wordlist.txt", "r") as wordlist:
         wordlist = wordlist.readlines()
         matches = 0
         for phrase in wordlist:
@@ -34,7 +34,7 @@ def medium_scan(password):
 def advanced_scan(password):
     blue = Fore.BLUE
     red = Fore.RED
-    with open("/home/cybercrack/Screech - password analyze/wordlists/advanced_scan_wordlist.txt", "r") as wordlist:
+    with open("../wordlists/wordlists/advanced_scan_wordlist.txt", "r") as wordlist:
         wordlist = wordlist.readlines()
         matches = 0
         for phrase in wordlist:
@@ -94,4 +94,3 @@ def console():
                 break
             
             
-
