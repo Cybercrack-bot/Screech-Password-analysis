@@ -1,4 +1,2 @@
 colorama
-subprocess.run
-platform
 pwnedpasswords
